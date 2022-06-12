@@ -56,9 +56,13 @@ By default, it is located at src:resources folder, with a default folder name: d
 Create a new file with the following naming convention:
 
 >Prefix: Defaults to V.
+>
 >Version: Dots or underscores separated in as many parts as one likes.
+>
 >Separator: Defaults to __ (two underscores) and separates the version from the description.
+>
 >Description: A text with words separated by underscores or spaces.
+>
 >Suffix: Defaults to .sql.
  
 ### Install flyway maven plugin in POM plugins 
